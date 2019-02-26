@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>userwork</class>
+ <widget class="QWidget" name="userwork">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>904</width>
+    <height>508</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border:none;</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-6</x>
+     <y>-2</y>
+     <width>911</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/new/prefix1/Image/background.jpg);
+border:none;</string>
+   </property>
+   <widget class="QPushButton" name="register_choose_login_way">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>430</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:25px;
+background:#31b0d5;
+color:#fff;
+border-image:none;
+background: rgba(154, 207, 206,0.5);</string>
+    </property>
+    <property name="text">
+     <string>界面</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_name_workNum">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>120</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+border: 1px solid #4288CE;
+background:rgba(0,0,0,0.2);
+color:#fff;
+border-image:none;
+
+
+
+
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>姓名或工号</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_pwd">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>180</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 10px;
+border: 1px solid #4288CE;
+background:rgba(0,0,0,0.2);
+color:#fff;
+border-image:none;
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>密码</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_daka">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>250</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(154, 207, 206,0.5);
+color: rgb(255, 255, 255);
+border:none;
+border-radius:7px;
+cursor:pointer;
+border-image:none;
+</string>
+    </property>
+    <property name="text">
+     <string>打卡</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_login">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>300</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(154, 207, 206,0.5);
+color: rgb(255, 255, 255);
+border:none;
+border-radius:7px;
+cursor:pointer;
+border-image:none;</string>
+    </property>
+    <property name="text">
+     <string>登录</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="mytime">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>250</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:none;
+font: 14pt &quot;ADMUI3Lg&quot;;
+color:#fff;
+background:rgba(0,0,0,0);</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="register_company_message_2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>460</y>
+      <width>221</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(170, 170, 127);
+border-image:none;</string>
+    </property>
+    <property name="text">
+     <string>2682178536@qq.com客户QQ：2682178536</string>
+    </property>
+   </widget>
+   <zorder>register_choose_login_way</zorder>
+   <zorder>pb_daka</zorder>
+   <zorder>pb_login</zorder>
+   <zorder>mytime</zorder>
+   <zorder>le_name_workNum</zorder>
+   <zorder>le_pwd</zorder>
+   <zorder>register_company_message_2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
